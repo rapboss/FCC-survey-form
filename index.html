@@ -1,0 +1,28 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main>
+  <h1 id="title">Rellene el Formulario</h1>
+  <p id="description">Esto nos ayudará a mejorar nuestros servicios.</p>
+  <form id="survey-form">
+    <label id="name-label">Enter your name:</label><br><br>
+      <input id="name" type="text" placeholder="enter your name" required><br><br>
+    <label id="email-label">Enter your email:</label><br><br>
+      <input id="email" type="email" placeholder="enter your email" required><br><br>
+    <label id="number-label">Enter your age:</label><br><br>
+      <input id="number" type="number" placeholder="enter your age" min="1" max="100" required><br><br>    
+      Ingrese el monto que desea donar:<br><br><select id="dropdown">
+        <option>$100</option>
+        <option>$200</option>
+        <option>$300</option>
+        <option>$400</option>
+      </select><br><br><br>
+      <input type="radio" name="attribute" value="checked">Deseo donar en efectivo.<br>
+      <input type="radio" name="attribute" value="checked">Deseo donar con tarjeta de debito/credito.<br>
+      <input type="radio" name="attribute" value="checked">Deseo donar mediante transferencia bancaria.<br><br>
+      <input type="checkbox" value="checked">Deseo donar diariamente.<br>
+      <input type="checkbox" value="checked">Deseo donar semanalmente.<br>
+      <input type="checkbox" value="checked">Deseo donar mensualmente<br>
+    <p>Any comments or suggestions?</p>
+      <textarea id="comments" placeholder="Enter your comment here" name="comments"></textarea><br><br>
+      <input type="submit" id="submit">
+  </form>
+</main>
